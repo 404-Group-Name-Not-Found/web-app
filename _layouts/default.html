@@ -8,3 +8,21 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<ul class="skip-links">
+  <li>
+    <a href="#nav">Jump to nav</a>
+    <a href="#main">Jump to main content</a>
+  </li>
+</ul>
+
+  <div class="z-dex">
+    {% pattern header/header %}
+  </div>
+  <main id="main" role="main" tabindex="0">
+  {% pattern breadcrumbs/breadcrumbs %}
+    {{content}}
+  </main>
+
+</body>
+</html>

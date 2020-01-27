@@ -6,3 +6,7 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.z-dex {
+  z-index: 1000;
+}
