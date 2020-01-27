@@ -1,4 +1,4 @@
-.grey-back {
-  color: var(--color-accent-secondary);
+header {
+  background-color: var(--color-accent-grey);
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
 }
