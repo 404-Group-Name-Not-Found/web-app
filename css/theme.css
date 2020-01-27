@@ -8,3 +8,45 @@
   --color-accent-grey: #f0f0f0;
   --font-primary: "Muli", sans-serif;
 }
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
+
+h2 {
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
+
+ul, li
+ol, li {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
