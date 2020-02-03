@@ -1,0 +1,23 @@
+h5 {
+  color: var(--color-accent-tertiary);
+}
+
+address {
+  color: var(--color-accent-secondary);
+}
+
+html {
+  border-color: var(--color-accent-tertiary);
+}
+
+li {
+  color: var(--color-accent-secondary);
+}
+
+small {
+  color: var(--color-accent-secondary);
+}
+
+i {
+  color: var(--color-secondary);
+}
