@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  padding: .3em .75em .3em;
+  background-color: #8D8EE1;
+  border-radius: 8px;
+  border: 3px solid #8D8EE1;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+.ghost-btn {
+  background-color: #fff;
+  color: #8D8EE1;
+  border: 3px solid #8D8EE1;
+}
+
+.add-btn {
+  height: 25px;
+  width: 25px;
+  background-color: #EC6383;
+  border-radius: 50%;
+}
