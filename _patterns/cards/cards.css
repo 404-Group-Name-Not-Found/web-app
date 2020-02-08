@@ -1,0 +1,15 @@
+.purp {
+  color: var(--color-primary)
+}
+
+.green {
+  var(--color-accent)
+}
+
+.grey {
+  var(--color-accent-tertiary)
+}
+
+.right {
+  text-align: right;
+}
