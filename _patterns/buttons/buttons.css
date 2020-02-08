@@ -9,15 +9,18 @@
   font-size: 1.125rem;
 }
 
+.btn:hover {
+  background-color: #EC6383;
+  border-color: #EC6383;
+}
+
 .ghost-btn {
   background-color: #fff;
   color: #8D8EE1;
   border: 3px solid #8D8EE1;
 }
 
-.add-btn {
-  height: 25px;
-  width: 25px;
-  background-color: #EC6383;
-  border-radius: 50%;
+.add {
+  height: 30px;
+  width: 30px;
 }
