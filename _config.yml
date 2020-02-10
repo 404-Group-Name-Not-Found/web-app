@@ -1,2 +1,14 @@
 permalink: pretty
 theme: jekyll_patternbot
+
+patternbot:
+  title: "Pouchly"
+  description: |
+    Pouchly is a family budgeting app that helps you money and plan for the future.
+  font_url: "https://fonts.googleapis.com/css?family=Muli:400,700&display=swap"
+  rationales:
+    typefaces.primary: |
+      Muli is to be used in content throughout the website, button text, links or call to actions, and navigation. It will mostly be used in a bold and normal font weight so to be easily readable and clear on a website. It is a rounded easy to read font that had a family-friendly feel.
+  layouts:
+    default: |
+      The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
