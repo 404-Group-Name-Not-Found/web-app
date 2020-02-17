@@ -13,3 +13,40 @@
 .right {
   text-align: right;
 }
+
+.add-member-border {
+  border-bottom: 3px solid var(--color-accent-secondary);
+  margin-bottom: 1.4rem;
+}
+
+.add-member-card {
+  max-width: 35em;
+  margin: auto;
+}
+
+.select {
+  background-color: var(--color-secondary);
+  color: #fff;
+  border: none;
+}
+
+.goal {
+  margin: auto;
+  background-color: var(--color-secondary);
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+}
+
+
+.button-right {
+  padding-left: 60%;
+}
+
+@media only screen and (min-width: 30em) {
+  .button-right {
+    padding-left: 70%;
+  }
+
+
+}

@@ -1,0 +1,40 @@
+<div class="add-member-card">
+  <div class="add-member-border">
+    {% pattern forms/member-name %}
+    {% pattern forms/family-title %}
+  </div>
+  <div class="add-member-border pad-b">
+    {% pattern buttons/checkbox %}
+    <div class="custom-select" style="width:200px;">
+      <select class="select">
+        <option class="select-items" value="0">Select Bank:</option>
+        <option value="1">RBC</option>
+        <option value="2">CIBC</option>
+        <option value="3">BMO</option>
+        <option value="4">Scotiabank</option>
+        <option value="5">TD</option>
+        <option value="6">Tangirine</option>
+      </select>
+    </div>
+    <div class="button-right">
+      {% pattern buttons/ghost %}
+    </div>
+  </div>
+  <div class="add-member-border pad-b">
+    {% pattern buttons/checkbox %}
+    {% pattern forms/goal-title %}
+    {% pattern forms/goal-desired-amount %}
+    {% pattern forms/goal-end-date %}
+    <div class="button-right pad-t-1-4">
+      {% pattern buttons/ghost %}
+    </div>
+  </div>
+  <div class="goal grid gutter-1-4">
+    <p class="unit push-0 pad-b-1-4 pad-t-1-4 s-1-3">College Fund</p>
+    <p class="unit push-0 pad-b-1-4 pad-t-1-4 s-1-3">$12,000</p>
+    <p class="unit push-0 pad-b-1-4 pad-t-1-4 s-1-3">September 2035</p>
+  </div>
+  <div class="button-right pad-t">
+    {% pattern buttons/basic %}
+  </div>
+</div>
