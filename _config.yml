@@ -9,27 +9,20 @@ patternbot:
   rationales:
     typefaces.primary: |
       Muli is to be used in content throughout the website, button text, links or call to actions, and navigation. It will mostly be used in a bold and normal font weight so to be easily readable and clear on a website. It is a rounded easy to read font that had a family-friendly feel.
+    colors.primary: |
+      This is the main colour of our logo.
+    colors.secondary: |
+      This colour is used for icons to grab the eye.
+    colors.secondary.pink: |
+      This colour is for Hover state on buttons, and progress bars.
+    colors.accent: |
+      This colour will signify paid bills.
+    colors.accent.secondary: |
+      This is the background colour.
+    colors.accent.tertiary: |
+      This is text colour when not black.
+    colors.accent.grey: |
+      This is light version of accent-tertiary.
   layouts:
     default: |
       The default layout should be used in every page for the website. It includes the primary header and the footer of the website.
-  color-primary:
-    description: |
-      This is the main colour of our logo.
-  color-secondary:
-    description: |
-      This colour is used for icons to grab the eye.
-  color-secondary-pink:
-    description: |
-      This colour is for Hover state on buttons, and progress bars.
-  color-accent:
-    description: |
-      This colour will signify paid bills.
-  color-accent-secondary:
-      description: |
-        This is the background colour.
-  color-accent-tertiary:
-    description: |
-      This is text colour when not black.
-  color-accent-grey:
-    description: |
-      This is light version of accent-tertiary.
