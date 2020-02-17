@@ -1,21 +1,19 @@
 .grey-bg {
-  background-color: var(--color-accent-grey);
+  background-color: var(--color-primary);
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .5));
 }
 
-/* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
+  color: #fff;
 }
 
-/* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #0275d8;
+  color: #fff;
   text-decoration: none;
 }
 
-/* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-  color: #01447e;
+  color: var(--color-secondary-pink);
   text-decoration: underline;
 }

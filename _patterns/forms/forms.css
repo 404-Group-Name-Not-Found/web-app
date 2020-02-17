@@ -1,0 +1,10 @@
+input {
+  background-color: #F0F0F0;
+  border: 2px solid #D8D8D8;
+  border-radius: 4px;
+}
+
+label {
+  color: var(--color-accent-tertiary);
+  font-weight: bold;
+}
