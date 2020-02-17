@@ -11,17 +11,17 @@ patternbot:
       Muli is to be used in content throughout the website, button text, links or call to actions, and navigation. It will mostly be used in a bold and normal font weight so to be easily readable and clear on a website. It is a rounded easy to read font that had a family-friendly feel.
     colors.primary: |
       This is the main colour of our logo.
-    color.secondary: |
+    colors.secondary: |
       This colour is used for icons to grab the eye.
-    color.secondary.pink: |
+    colors.secondary.pink: |
       This colour is for Hover state on buttons, and progress bars.
-    color.accent: |
+    colors.accent: |
       This colour will signify paid bills.
-    color.accent.secondary: |
+    colors.accent.secondary: |
       This is the background colour.
-    color.accent.tertiary: |
+    colors.accent.tertiary: |
       This is text colour when not black.
-    color.accent.grey: |
+    colors.accent.grey: |
       This is light version of accent-tertiary.
   layouts:
     default: |
