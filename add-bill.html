@@ -1,15 +1,47 @@
 ---
 layout: default
 ---
-
-<div class="add-member-border pad-b gutter-2 pad-t">
+{% pattern breadcrumbs/breadcrumbs page="Edit Bills" %}
+<div class="pad-b gutter-2 pad-t">
   <div class="push">
     <label for="goal-title" class="text-left push-1-4 bold">Bill Title:</label>
     <input id="goal-title" name="goal-title" placeholder="College Fund" aria-label="enter goal title" required>
   </div>
   {% pattern forms/goal-desired-amount %}
   {% pattern forms/goal-end-date %}
-  <div class="button-right pad-t-1-4">
+  <div class=" add-member-border pad-b button-right pad-t-1-4">
     {% pattern buttons/ghost text="Add Bill" url="#" aria="Add goal to member" %}
   </div>
+  <h2 class="kilo"> Added Goals:</h2>
+  <div class="">
+    <ul class="delete">
+      <li>
+        <div class="goal grid gutter-1-4">
+          <p class="unit push-0 pad-t-1-2 s-1-4">College Fund</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">$12,000</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">September 2035</p>
+          <span class="close unit push-0 s-1-4">x</span>
+        </div>
+      </li>
+      <li>
+        <div class="goal grid gutter-1-4">
+          <p class="unit push-0 pad-t-1-2 s-1-4">Allowance Fund</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">$200</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">June 2021</p>
+          <span class="close unit push-0 s-1-4">x</span>
+        </div>
+      </li>
+      <li>
+        <div class="goal grid gutter-1-4">
+          <p class="unit push-0 pad-t-1-2 s-1-4">Vacation Fund</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">$1,000</p>
+          <p class="unit push-0 pad-t-1-2 s-1-4">September 2040</p>
+          <span class="close unit push-0 s-1-4">x</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="button-right pad-t pad-b">
+  {% pattern buttons/basic heading="Save Bills" url="/index" aria="Go to home page" %}
 </div>
