@@ -42,10 +42,7 @@
 
   <div class="grid">
     <div class="unit">
-      <ul class="list-group-inline">
-        <li><h2 class="kilo push-0 pad-b-1-2">Combined Goals</h2></li>
-        <li><a href="/">{% pattern buttons/add %}</a></li>
-      </ul>
+      <h2 class="kilo push-0 pad-b-1-2">Combined Goals</h2>
     </div>
   </div>
 
@@ -54,8 +51,9 @@
     <ul class="list-group-inline">
       <li><img class="info-bar" src="/images/progress-bar.svg" alt="#"></li>
       <li><p class="mega">$2500</p></li>
-      <li class="gutter-2 edit"><a href="#">Edit</a></li>
     </ul>
   </div>
-
+  <div class="">
+    {% pattern buttons/ghost text="Edit/Add Goals" url="/edit-member/" aria="Add goal to member" %}
+  </div>
 </div>
