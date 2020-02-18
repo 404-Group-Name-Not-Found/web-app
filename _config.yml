@@ -4,7 +4,7 @@ theme: jekyll_patternbot
 patternbot:
   title: "Pouchly"
   description: |
-    Pouchly is a family budgeting app that helps you money and plan for the future.
+    Pouchly is a family budgeting app that helps you save money and plan for the future.
   font_url: "https://fonts.googleapis.com/css?family=Muli:400,700&display=swap"
   rationales:
     typefaces.primary: |
