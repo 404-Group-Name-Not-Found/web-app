@@ -21,3 +21,7 @@ small {
 i {
   color: var(--color-secondary);
 }
+
+.bg {
+  background-color: var(--color-accent-grey);
+}

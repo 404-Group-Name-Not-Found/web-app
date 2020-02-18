@@ -1,36 +1,40 @@
 <div class="island">
-  <div class="grid">
+  <div class="grid pad-b">
     <div class="unit xs-1-2">
       <h2 class="kilo push-0 pad-b-1-2">Combined Balance:</h2>
       <p class="purp bold mega">$2045.97</p>
     </div>
     <div class="unit xs-1-2 right">
-      <h2 class="kilo">Contributers</h2>
+      <h2 class="kilo push-1-2">Contributers</h2>
       <ul class="list-group-inline">
-        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50" alt=""></a></li>
-        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50" alt=""></a></li>
+        <li><i class="icon i-48"><svg><use xlink:href="/images/icons.svg#maria"></use></svg></i></li>
+        <li><i class="icon i-48"><svg><use xlink:href="/images/icons.svg#phil"></use></svg></i></li>
       </ul>
     </div>
   </div>
 
   <div class="grid">
     <div class="unit">
-      <h2 class="kilo push-0 pad-b-1-2">Combined Bills</h2>
-      <a href="#">{% pattern buttons/add %}</a>
+      <ul class="list-group-inline">
+        <li><h2 class="kilo push-0 pad-b-1-2">Combined Bills</h2></li>
+        <li><a href="#">{% pattern buttons/add %}</a></li>
+      </ul>
     </div>
-    <div class="unit">
+  </div>
+  <div class="grid pad-b">
+    <div class="unit gutter">
       <p class="grey">Mortgage</p>
       <h2 class="kilo purp">$500</h2>
     </div>
-    <div class="unit">
+    <div class="unit gutter">
       <p class="grey">Water Bill</p>
       <h2 class="kilo purp">$104</h2>
     </div>
-    <div class="unit">
+    <div class="unit gutter">
       <p class="grey">Internet</p>
       <h2 class="kilo green">$104 — Paid</h2>
     </div>
-    <div class="unit">
+    <div class="unit gutter">
       <p class="grey">Hydro Bill</p>
       <h2 class="kilo purp">$200</h2>
     </div>
@@ -38,9 +42,20 @@
 
   <div class="grid">
     <div class="unit">
-      <h2 class="kilo push-0 pad-b-1-2">Combined Goals</h2>
-      <a href="#">{% pattern buttons/add %}</a>
+      <ul class="list-group-inline">
+        <li><h2 class="kilo push-0 pad-b-1-2">Combined Goals</h2></li>
+        <li><a href="#">{% pattern buttons/add %}</a></li>
+      </ul>
     </div>
+  </div>
+
+  <div class="">
+    <p class="push-1-4">Trip to Bali</p>
+    <ul class="list-group-inline">
+      <li><img class="info-bar" src="/images/progress-bar.svg" alt="#"></li>
+      <li><p class="mega">$2500</p></li>
+      <li class="gutter-2 edit"><a href="#">Edit</a></li>
+    </ul>
   </div>
 
 </div>
