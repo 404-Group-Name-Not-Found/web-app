@@ -1,0 +1,40 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the pimary call-to-action on the screen.
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds and is the primary call to action.
+    fields:
+      - name: heading
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
+  ghost:
+    title: "Ghost"
+    description: |
+      The ghost button is for less important call to actions.
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: url
+        example: "/products/"
+      - name: aria
+        type: string
+        example: "Go to products page"
+  checkbox:
+    title: "Checkbox"
+    description: |
+      Checkbox is to be used to signify if an action is active or inactive.
+    fields:
+      - name: title
+        type: string
+        example: "See More"

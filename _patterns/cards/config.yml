@@ -1,3 +1,12 @@
 title: "Card"
 description: |
   This card is used to display the account information.
+patterns:
+  info-card:
+    title: "Info Card"
+    description: |
+      This card is used to show the viewer their banking information and the goals they need to reach.
+  add-member-card:
+    title: "Add Member Card"
+    description: |
+      This card is used to add a member to the app to view.

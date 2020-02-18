@@ -1,3 +1,10 @@
 title: "Breadcrumbs"
 description: |
   The breadcrumbs are used to navigation back easily from the page you are on.
+patterns:
+  breadcrumbs:
+    title: "Breadcrumbs"
+    fields:
+      - name: page
+        type: string
+        example: "Maria's Account"
