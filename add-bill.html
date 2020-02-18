@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="add-member-border pad-b gutter-2 pad-t">
+  <div class="push">
+    <label for="goal-title" class="text-left push-1-4 bold">Bill Title:</label>
+    <input id="goal-title" name="goal-title" placeholder="College Fund" aria-label="enter goal title" required>
+  </div>
+  {% pattern forms/goal-desired-amount %}
+  {% pattern forms/goal-end-date %}
+  <div class="button-right pad-t-1-4">
+    {% pattern buttons/ghost text="Add Bill" url="#" aria="Add goal to member" %}
+  </div>
+</div>
