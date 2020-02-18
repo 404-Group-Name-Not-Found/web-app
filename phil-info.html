@@ -1,15 +1,17 @@
+---
+layout: default
+---
+{% pattern breadcrumbs/breadcrumbs page="Phils's Account" %}
 <div class="island">
   <div class="grid pad-b">
     <div class="unit xs-1-2">
-      <h2 class="kilo push-0 pad-b-1-2">Combined Balance:</h2>
+      <h2 class="kilo push-0 pad-b-1-2">Balance:</h2>
       <p class="purp bold mega">$2045.97</p>
     </div>
     <div class="unit xs-1-2 right">
-      <h2 class="kilo push-1-2">Contributors</h2>
-      <ul class="list-group-inline">
-        <li><i class="icon i-48"><svg><use xlink:href="/images/icons.svg#maria"></use></svg></i></li>
-        <li><i class="icon i-48"><svg><use xlink:href="/images/icons.svg#phil"></use></svg></i></li>
-      </ul>
+      <div class="pad-t">
+        {% pattern buttons/basic heading="Edit Member" url="/edit-member/" aria="Go to home page" %}
+      </div>
     </div>
   </div>
 
@@ -56,4 +58,13 @@
   <div class="">
     {% pattern buttons/ghost text="Edit/Add Goals" url="/edit-goals/" aria="Add goal to member" %}
   </div>
+</div>
+
+<div class="gutter">
+  <h2 class="kilo">Members</h2>
+  <ul class="list-group-inline pad-b">
+    <li><a href="/maria-info/"><i class="icon i-64"><svg><use xlink:href="/images/icons.svg#maria"></use></svg></i></a></li>
+    <li class="gutter"><a href="/phil-info/"><i class="icon i-64"><svg><use xlink:href="/images/icons.svg#phil"></use></svg></i></a></li>
+    <li class=""><a href="/add-member/"><i class="icon i-64"><svg><use xlink:href="/images/icons.svg#add"></use></svg></i></a></li>
+  </ul>
 </div>

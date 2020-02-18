@@ -1,25 +1,8 @@
-<div class="add-member-card pad-t">
-  <div class="add-member-border">
-    {% pattern forms/member-name %}
-    {% pattern forms/family-title %}
-  </div>
-  <div class="add-member-border pad-b">
-    {% pattern buttons/checkbox title="Member Card:" %}
-    <div class="custom-select" style="width:200px;">
-      <select class="select">
-        <option class="select-items" value="0">Select Bank:</option>
-        <option value="1">RBC</option>
-        <option value="2">CIBC</option>
-        <option value="3">BMO</option>
-        <option value="4">Scotiabank</option>
-        <option value="5">TD</option>
-        <option value="6">Tangirine</option>
-      </select>
-    </div>
-    <div class="button-right">
-      {% pattern buttons/ghost text="Add Card" url="#" aria="Go to selected bank" %}
-    </div>
-  </div>
+---
+layout: default
+---
+{% pattern breadcrumbs/breadcrumbs page="Edit Goals" %}
+<div class="add-member-card pad-t pad-b">
   <div class="add-member-border pad-b">
     {% pattern buttons/checkbox title="Add Goal:" %}
     {% pattern forms/goal-title %}
@@ -29,7 +12,7 @@
       {% pattern buttons/ghost text="Add Goal" url="#" aria="Add goal to member" %}
     </div>
   </div>
-  <h2 class="kilo"> Added Goals:</h2>
+  <h2 class="kilo"> Existing Goals:</h2>
   <div class="">
     <ul class="delete">
       <li>
